@@ -1,0 +1,14 @@
+{
+  "name": "tailwind_project",
+  "version": "1.0.0",
+  "description": "This is my first project on tailwindcss.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx tailwind -i ./input.css -o ./output.css --watch"
+  },
+  "author": "Rajesh Pal",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
